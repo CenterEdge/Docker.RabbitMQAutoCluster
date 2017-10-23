@@ -1,6 +1,6 @@
 FROM rabbitmq:3.6-management-alpine
 
-ARG RABBITMQ_AUTOCLUSTER_VERSION=0.8.0
+ARG RABBITMQ_AUTOCLUSTER_VERSION=0.10.0
 
 ADD https://github.com/rabbitmq/rabbitmq-autocluster/releases/download/${RABBITMQ_AUTOCLUSTER_VERSION}/autocluster-${RABBITMQ_AUTOCLUSTER_VERSION}.ez \  
 	https://github.com/rabbitmq/rabbitmq-autocluster/releases/download/${RABBITMQ_AUTOCLUSTER_VERSION}/rabbitmq_aws-${RABBITMQ_AUTOCLUSTER_VERSION}.ez \
